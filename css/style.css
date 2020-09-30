@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  margin:0;
 }
 
 .box{
@@ -9,10 +8,11 @@
   border: 1px black solid;
   text-align: center;
   line-height: 150px;
+  padding:5px;
 }
 
 .Nested{
-  border: white 2px solid;
+  border: white 1px solid;
   height: 100%;
   background-color: #f07f80;
   font-size: 12px;
