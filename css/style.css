@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
-  font-size: 12px;
+}
+
+.container{
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .box{
@@ -9,12 +13,19 @@
   height:150px;
   border: 1px black solid;
   padding:5px;
-  line-height:calc(150px - (12px/2));
+  position:relative;
 }
 
 .Nested{
-  text-align: center;
   border: white 1px solid;
   height: 100%;
   background-color: #f07f80;
+  position:relative;
+}
+
+span{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
 }
