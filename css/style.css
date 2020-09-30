@@ -3,15 +3,16 @@
 }
 
 .box{
+  text-align: center;
   background-color: #ffc0cb;
   height:150px;
   border: 1px black solid;
-  text-align: center;
-  line-height: 150px;
   padding:5px;
+  line-height:calc(150px - 12px);
 }
 
 .Nested{
+  text-align: center;
   border: white 1px solid;
   height: 100%;
   background-color: #f07f80;
