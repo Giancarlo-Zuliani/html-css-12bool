@@ -10,3 +10,10 @@
   text-align: center;
   line-height: 150px;
 }
+
+.Nested{
+  border: white 2px solid;
+  height: 100%;
+  background-color: #f07f80;
+  font-size: 12px;
+}
